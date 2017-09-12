@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SD3</title>
+  <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="http://npmcdn.com/leaflet@1.2.0/dist/leaflet.css" />
+	<script src="http://npmcdn.com/leaflet@1.2.0/dist/leaflet.js"></script>
+</head>
+<h1>
+<center>
+	<img src="symbool.png" width="400px" height="100px">
+</center>
+</h1>
+<center>
+
+<h2>
+	My Summer Vacation
+</h2>
+</center>
+<body>
+	<center>
+	<div id="the-map" style="width: 1000px; height: 645px;"></div> 
+	<script>
+		var map = L.map('the-map').setView([12.8797, 121.7740], 6);
+		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 'Map data &copy; 2017 OpenStreetMap contributors', minZoom: '5', maxZoom: '20'}).addTo(map);
+		var marker = L.marker([13.6218,123.1948], { title: 'Naga City' , opacity: '0.5' });
+		marker.bindPopup('Welcome to <a href="https://en.wikipedia.org/wiki/Naga,_Camarines_Sur" target="_blank"> Naga City</a>!');
+		marker.addTo(map)
+		var marker1 = L.marker([12.0499, 120.1782], { title: 'Coron', opacity: '0.5'});
+		marker1.bindPopup('Enjoy the Islands of <a href="https://thefeistsgreatescape.wordpress.com/palawan-travel-guide/a-practical-guide-to-coron-palawan/" target="_blank"> Coron, Palawan</a>');
+		marker1.addTo(map)
+		var marker2 = L.marker([14.1153, 120.9621], { title: 'Tagaytay', opacity: '0.5'});
+		marker2.bindPopup('Visit the Site of <a href="http://www.philstar.com/travel-and-tourism/2016/04/28/1577701/6-summer-destinations-visit-tagaytay" target="_blank"> Tagaytay</a>');
+		marker2.addTo(map)
+	</script>
+	</center>
+</body>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+	<center>
+   <div class="column-center"> <font size= "6", face = "Georgia"><b>Naga City</b></font> 
+   <p>
+   <img src="naga.jpg" width = "300px" height = "250px">
+   </p>
+   <p>
+   	A city in the Philippines. I spent my eleven years here before moving to Los Angeles. After being away for nine years, I was able to visit again. Many things have changed. <br>
+   	<br>
+   	Here is the list of things that you can do in my hometown. <a href="https://www.tripadvisor.com/Attractions-g317123-Activities-Naga_Camarines_Sur_Province_Bicol_Region_Luzon.html" target="_blank"> Toursist Spots </a>
+   </p>
+   </div>
+   <div class="column-left"> <font size= "6", face = "Georgia"><b>Coron, Palawan</b></font> 
+   <p>
+   	<img src="palawan.jpg" width="300 px" height="250 px">
+   </p>
+   <p>
+   	Coron, Palawan is a beautiful paradise filled with fun activities. Tourist can go island hopping, swimming, snorkelling, and many more. <br>
+   	<br>
+   	For tour packages click on the link. <a href="https://www.coron-travel.com/" target="_blank"> <br>Tour Packages </a>
+   </p>
+
+   </div>
+   <div class="column-right"> <font size= "6", face = "Georgia"><b>Tagaytay</b></font> 
+   <p>
+   	<img src="tagaytay.jpg" width="300 px" height="250 px">
+   </p>
+   <p>
+   	Tagaytay is another beautiful place in the Philippines. Visit Tagaytay for the overlooking view of Taal Volcano and for the delicious food. <br>
+   	<br>
+   	Here is more information about Taal Volcano <a href=http://www.cnn.com/travel/article/tagaytay-taal-volcano-philippines/index.html target="_blank"> <br>Taal Volcano </a>
+   </p>
+
+
+   </div>
+   </center>
+</div>
+
+
+</html>

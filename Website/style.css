@@ -1,0 +1,16 @@
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: medium;
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: xx-large;
+}
+
+.column-left{ float: left; width: 33.3%;
+}
+
+.column-right{ float: right; width: 33.3%; }
+.column-center{ display: inline-block; width: 33.3%; }
+
