@@ -1,0 +1,36 @@
+/*Add some style to your page*/
+/*Add some style to your page*/
+
+h2{
+	font-size:3.5em;
+	font-family: Papyrus; 
+}
+
+body{
+	text-align: center;
+	background-color: #9ffffd ;
+	color: #a10000
+}
+
+h3{
+	font-size: 2.5em;
+	font-family: Lucida Sans Typewriter
+}
+
+
+p{
+	font-size: 1.2em;
+	font-family: Century Gothic;
+	text-align: justify;
+	margin-left: auto; 
+	
+}
+
+a{
+	font-size: 1.5em;
+}
+
+canvas{
+	background: #fd5a43;
+}
+
