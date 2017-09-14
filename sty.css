@@ -186,6 +186,12 @@ footer.second {
 		margin: 0;
 		padding: 0;
 	}
+	section1 {
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
 
 }
 
