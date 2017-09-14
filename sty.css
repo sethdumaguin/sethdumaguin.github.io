@@ -22,7 +22,20 @@ p {
 	height: 236px;
 	width: 345px;
 }
+#git {
+	width: 111px;
+	height: 111px;
+}
 
+#linked {
+	width: 115px;
+	height: 115px;
+}
+
+#resume {
+	width: 400px;
+	height: 500px;
+}
 #me {
 	width: 400px;
 	height: 400px;
@@ -56,6 +69,7 @@ header {
 	z-index: 100;
 	opacity: 0.90;
 }
+
 
 #logo {
 	margin-left: -70px;
@@ -121,7 +135,7 @@ section {
 }
 article {
 	float: left;
-	margin 0 auto;
+	margin: 0 auto;
 	width: 50%;
 	height: auto;
 	padding: 4%;
