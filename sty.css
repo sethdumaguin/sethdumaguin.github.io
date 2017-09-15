@@ -18,7 +18,7 @@ h1 {
 p {
 	padding: 1%;
 }
-#skill {
+.skill {
 	height: 236px;
 	width: 345px;
 }
@@ -37,6 +37,7 @@ p {
 	height: 500px;
 }
 #me {
+	object-fit: cover;
 	width: 400px;
 	height: 400px;
 }
