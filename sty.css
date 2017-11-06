@@ -100,7 +100,7 @@ ul {
 nav ul li {
 	display: inline-block;
 	float: left;
-	padding: 10px
+	padding: 10px;
 }
 .current {
 	color: #FFF;
@@ -111,7 +111,7 @@ nav ul li {
 }
 #content {
 	max-width: 0 auto;
-	max-width: 1500px;
+	max-width: 100%;
 	margin-top: 110px;
 }
 .blueberry {
